@@ -23,7 +23,7 @@ const greeting = {
   username: "Saman Jamil",
   title: "Hi all, I'm Saman",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Developer 🚀 with experience in building Android and Web applications using React.js, Node.js, Kotlin, low-code platforms and other modern technologies. Focused on solving real-world problems through clean code, creative design, and impactful projects like Under3 and Idra'ak."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1orbrdlk7vdlSzIadQL6XcEotyIMbC427/view?usp=sharing", // Set to empty to hide the button
@@ -49,14 +49,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO BUILDS REAL-WORLD WEB & MOBILE APPS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Building responsive and scalable front-end UIs using React.js and modern frameworks"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Developing Android apps with Kotlin, Jetpack Compose, and RESTful APIs"
+    ),
+    emoji(
+      "⚡ Creating Web & Mobile apps using low-code tools like WeWeb and Bubble.io"
+    ),
+    emoji(
+      "⚡ Integrating third-party APIs and services such as Firebase, AWS, and Xano"
+    ),
+    emoji("⚡ Designing backend logic with Node.js, Express, and MongoDB"),
+    emoji(
+      "⚡ Building AI-powered apps like Idra'ak using Python, Flask, and TensorFlow"
     )
   ],
 
@@ -65,84 +74,103 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Kotlin",
+      fontAwesomeClassname: "fas fa-mobile-alt"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    {
+      skillName: "Bubble.io",
+      fontAwesomeClassname: "fas fa-gem"
+    },
+    {
+      skillName: "WeWeb",
+      fontAwesomeClassname: "fas fa-cubes"
+    },
+    {
+      skillName: "Xano",
+      fontAwesomeClassname: "fas fa-server" // Representing backend services
+    },
+    {
+      skillName: "n8n",
+      fontAwesomeClassname: "fas fa-project-diagram" // Represents automation & workflows
     }
   ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName:
+        "National University of Computer and Emerging Sciences (FAST-NUCES)",
+      logo: require("./assets/images/fastlogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2019 - June 2023",
+      desc: "Graduated with a strong foundation in software engineering, full-stack development, and AI/ML concepts.",
+      descBullets: [
+        "Completed Final Year Project: Idra'ak – translating Urdu Sign Language into audio and text using AI/ML",
+        "Worked on multiple Android and Web-based academic projects",
+        "Completed internship at AIMS Lab under faculty supervision"
+      ]
     }
   ]
 };
@@ -150,54 +178,79 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend / UI Development",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend / API Integration",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Android Development (Java/Kotlin)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Low-code Tools (Bubble.io, WeWeb, FlutterFlow)",
+      progressPercentage: "90%"
     }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  ]
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Quixas Technology Ltd.",
+      companylogo: require("./assets/images/quixasLogo.png"), // Add this logo to assets/images folder
+      date: "August 2024 – Present",
+      desc: "Building web and mobile apps using modern low-code platforms, integrating APIs, and working in agile teams.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed scalable applications using WeWeb, Bubble.io, and FlutterFlow",
+        "Integrated REST APIs and worked on QA, performance optimization, and user-centric UI workflows",
+        "Implemented automation via n8n for seamless user experience"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Android Developer",
+      company: "Terafort Ltd.",
+      companylogo: require("./assets/images/teraforLogo.jpg"), // Add this logo to assets/images folder
+      date: "December 2023 – June 2024",
+      desc: "Worked on native Android apps using Kotlin and Java, delivering polished and responsive applications.",
+      descBullets: [
+        "Used Kotlin, Coroutines, MVVM, RecyclerView, and Android Jetpack components",
+        "Implemented features like in-app translation, constraint layouts, ads, and REST API integration",
+        "Focused on UI/UX consistency across multiple screen sizes and Android versions"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Application Developer Intern",
+      company: "Chakor Software Development",
+      companylogo: require("./assets/images/chakorLogo.jpg"), // Add this logo to assets/images folder
+      date: "July 2023 – October 2023",
+      desc: "Interned as a full-stack developer focusing on AI-assisted and low-code web application development.",
+      descBullets: [
+        "Built a full-stack product using WeWeb and backend tools",
+        "Participated in code reviews and applied software testing principles",
+        "Gained hands-on experience with automation, APIs, and UI design"
+      ]
     }
+    // {
+    //   role: "Research Intern",
+    //   company: "FAST-NUCES AIMS Lab",
+    //   companylogo: require("./assets/images/fastlogo.png"),
+    //   date: "July 2022 – September 2022",
+    //   desc: "Contributed to AI/ML research focused on Urdu Sign Language recognition and translation.",
+    //   descBullets: [
+    //     "Worked on dataset preprocessing and model experimentation for Urdu Sign Language detection",
+    //     "Assisted in setting up machine learning pipelines for sign-to-text translation using deep learning"
+    //   ]
+    // }
   ]
 };
 
@@ -216,25 +269,38 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/quixasLogo.png"), // Add your logo image in the assets folder
+      projectName: "Quixas Technology",
+      projectDesc:
+        "Designed and developed the official company website with a clean, responsive UI using modern web technologies.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://quixasit.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/under3.png"), // Add your Under3 logo in the assets folder
+      projectName: "Under3",
+      projectDesc:
+        "A trauma-informed mobile app built using low-code tools to support survivors of intimate partner violence.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.under3.ca/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/idraakLogo.jpg"), // Add your Idraak logo in the assets folder
+      projectName: "Idra’ak",
+      projectDesc:
+        "An Android AI-based app that translates Urdu Sign Language videos into text and speech using deep learning.",
+      footerLink: [
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/i190721/Idraak"
         }
       ]
     }
@@ -372,8 +438,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3318540818",
+  email_address: "samanj315@gmail.com"
 };
 
 // Twitter Section
